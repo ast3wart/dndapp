@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dndapp/static/css/main.6e06f485.css",
+    "main.js": "/dndapp/static/js/main.fce63d98.js",
+    "static/media/background.png": "/dndapp/static/media/background.98828c0ba389d7ec1bce.png",
+    "index.html": "/dndapp/index.html",
+    "main.6e06f485.css.map": "/dndapp/static/css/main.6e06f485.css.map",
+    "main.fce63d98.js.map": "/dndapp/static/js/main.fce63d98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e06f485.css",
+    "static/js/main.fce63d98.js"
+  ]
+}
