@@ -1,0 +1,84 @@
+/* Signup Page Styles */
+.signup-page {
+    background: url("../components/images/background.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1b1b1b;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffaa00;
+  }
+  
+  .switch-mode {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .switch-mode span {
+    color: #ffcc00;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .switch-mode span:hover {
+    color: #ffaa00;
+  }
+  

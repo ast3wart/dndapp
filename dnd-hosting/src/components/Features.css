@@ -1,0 +1,28 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #2e2e2e;
+  }
+  
+  .feature {
+    background-color: #4a4a4a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
