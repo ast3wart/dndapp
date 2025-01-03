@@ -46,7 +46,7 @@ header {
 }
 
 .menu-icon.open .line:nth-child(2) {
-  opacity: 0; /* Hides the middle line */
+  opacity: 0;
 }
 
 .menu-icon.open .line:nth-child(3) {
@@ -107,7 +107,7 @@ header nav a:hover {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -280px; /* Adjust sidebar width and position */
+  left: -280px;
   width: 280px;
   height: 100%;
   background-color: #0c0c0c;
@@ -123,7 +123,7 @@ header nav a:hover {
 
 .sidebar-header {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
+  justify-content: flex-start;
   align-items: center;
   padding: 1rem;
   background-color: #0c0c0c;
@@ -132,7 +132,7 @@ header nav a:hover {
 .sidebar-logo {
   height: 40px;
   width: auto;
-  margin-left: 10px; /* Ensures spacing from the sidebar edge */
+  margin-left: 10px;
   flex-shrink: 0;
 }
 
