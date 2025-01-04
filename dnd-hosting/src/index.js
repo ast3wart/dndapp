@@ -10,3 +10,12 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+const adminAccount = {
+  username: "admin",
+  password: "adam123",
+};
+
+if (!localStorage.getItem("users")) {
+  localStorage.setItem("users", JSON.stringify([adminAccount]));
+}
