@@ -12,16 +12,25 @@
   }
   
   .character-creation-popup {
-    background-color: #1b1b1b;
-    color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    width: 600px;
-    max-width: 90%;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     position: relative;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    transition: all 0.3s ease;
   }
+  
+  .compact-popup {
+    width: 40%;
+    max-width: 600px;
+  }
+  
+  .large-popup {
+    width: 80%;
+    max-width: 900px;
+  }  
   
   .close-btn {
     position: absolute;
@@ -88,10 +97,10 @@
   }
   
   .options-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 1rem;
   }
   
@@ -149,4 +158,47 @@
       width: 100%;
     }
   }
+  
+  .attribute-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .attribute-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .attribute-row span {
+    font-size: 1.2rem;
+    color: #ffcc00;
+  }
+  
+  .attribute-row button {
+    background-color: #ffcc00;
+    color: #0c0c0c;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .attribute-row button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .attribute-row button:hover:not(:disabled) {
+    background-color: #e6b800;
+  }
+  
   

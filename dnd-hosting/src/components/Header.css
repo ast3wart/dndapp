@@ -217,11 +217,15 @@ header nav a:hover {
 .account-dropdown {
   position: relative;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .account-name {
   color: #fff;
   font-weight: bold;
+  padding: 0.5rem;
+  background-color: #0c0c0c;
+  border-radius: 4px;
 }
 
 .dropdown-menu {
@@ -234,8 +238,9 @@ header nav a:hover {
   padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   z-index: 2000;
+  width: 100px;
+  overflow: visible;
 }
-
 
 .dropdown-menu button {
   display: block;
@@ -254,3 +259,17 @@ header nav a:hover {
   color: #000;
 }
 
+header {
+  position: relative;
+  overflow: visible;
+}
+
+.header-container {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+
+.account-dropdown:hover .dropdown-menu {
+  display: block;
+}
