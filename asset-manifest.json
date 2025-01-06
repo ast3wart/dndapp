@@ -1,20 +1,35 @@
 {
   "files": {
-    "main.css": "/dndapp/static/css/main.e2266c73.css",
-    "main.js": "/dndapp/static/js/main.19dffb49.js",
+    "main.css": "/dndapp/static/css/main.d7a39e66.css",
+    "main.js": "/dndapp/static/js/main.38620885.js",
     "static/media/background.png": "/dndapp/static/media/background.98828c0ba389d7ec1bce.png",
+    "static/media/druid.png": "/dndapp/static/media/druid.f648be0e57bf6c993e0a.png",
+    "static/media/warlock.png": "/dndapp/static/media/warlock.f82933708b35fd76778a.png",
+    "static/media/cleric.png": "/dndapp/static/media/cleric.7f1927b5d376f5923272.png",
+    "static/media/sorcerer.png": "/dndapp/static/media/sorcerer.e0ea12bc0bcb9ec19960.png",
+    "static/media/wizard.png": "/dndapp/static/media/wizard.8b759de0b50e3f79b6ca.png",
+    "static/media/paladin.png": "/dndapp/static/media/paladin.491d38b02b0f35861c79.png",
+    "static/media/barbarian.png": "/dndapp/static/media/barbarian.f02f6b0911aa7c47d75a.png",
+    "static/media/ranger.png": "/dndapp/static/media/ranger.f7cf39429340f884e32b.png",
+    "static/media/bard.png": "/dndapp/static/media/bard.52e34c32bbd77822a2fe.png",
+    "static/media/gnome.png": "/dndapp/static/media/gnome.e209953566bf3be9c962.png",
+    "static/media/monk.png": "/dndapp/static/media/monk.5b202ba9a47531ab1719.png",
     "static/media/dwarf.png": "/dndapp/static/media/dwarf.687a2e5e18478613f8fd.png",
+    "static/media/halforc.png": "/dndapp/static/media/halforc.6f0c3691aa186a01b1d1.png",
+    "static/media/rogue.png": "/dndapp/static/media/rogue.debaf937b887285a03e2.png",
     "static/media/elf.png": "/dndapp/static/media/elf.e97fb1028c1dfc8dacce.png",
+    "static/media/halfelf.png": "/dndapp/static/media/halfelf.49870053ff8cad764779.png",
+    "static/media/halfling.png": "/dndapp/static/media/halfling.7744d39f5b1fef096b37.png",
+    "static/media/tiefling.png": "/dndapp/static/media/tiefling.258a79db78b9ca4eb873.png",
+    "static/media/dragonborn.png": "/dndapp/static/media/dragonborn.2034a3dc2e1eca739834.png",
+    "static/media/fighter.png": "/dndapp/static/media/fighter.5a5162c81c44d983ee32.png",
     "static/media/human.png": "/dndapp/static/media/human.9bac97266876f9a062f6.png",
-    "static/media/wizard.png": "/dndapp/static/media/wizard.fb144606fb6072967749.png",
-    "static/media/warlock.png": "/dndapp/static/media/warlock.6dc0b81ed873c4135965.png",
-    "static/media/fighter.png": "/dndapp/static/media/fighter.49ce190fde5eabaaf20d.png",
     "index.html": "/dndapp/index.html",
-    "main.e2266c73.css.map": "/dndapp/static/css/main.e2266c73.css.map",
-    "main.19dffb49.js.map": "/dndapp/static/js/main.19dffb49.js.map"
+    "main.d7a39e66.css.map": "/dndapp/static/css/main.d7a39e66.css.map",
+    "main.38620885.js.map": "/dndapp/static/js/main.38620885.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2266c73.css",
-    "static/js/main.19dffb49.js"
+    "static/css/main.d7a39e66.css",
+    "static/js/main.38620885.js"
   ]
 }
